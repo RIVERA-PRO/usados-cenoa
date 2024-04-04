@@ -30,4 +30,7 @@
     .titleSection a{
       font-size: 14px;
     }
+    .iconMore {
+        margin-top: 0;
+    }
 }
