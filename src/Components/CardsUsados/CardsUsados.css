@@ -1,0 +1,45 @@
+.CardsUsados{
+    padding: 60px 10%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+}
+
+.cardUsados{
+    box-shadow: 0px 4px 15px rgb(0 0 0 / 8%);
+    width: 55vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    padding: 20px;
+    border-radius: 7px;
+}
+.cardUsados img{
+    width: 170px;
+    height: 120px;
+    object-fit: contain;
+  
+ }
+ .cardUsados h3{
+    font-size: 17px;
+    color: var(--color1);
+}
+.cardUsados p{
+    font-size: 15px;
+    color: var(--color1);
+}
+.cardUsados:hover{
+    background-color: var(--color1);
+}
+.cardUsados:hover h3{
+    color: var(--blanco);
+}
+.cardUsados:hover p{
+    color: var(--blanco);
+}
+@media (max-width: 1024px){
+
+}

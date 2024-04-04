@@ -1,0 +1,31 @@
+.IconSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 10px 12%;
+    background-color: var(--blanco);
+}
+
+.IconSection img{
+    width: 120px;
+    
+}
+.IconSection hr{
+    width: 100%;
+    border: 1px solid #1c244b3c;
+    color: var(--color1);
+    border-radius: 10px;
+   
+}
+@media (max-width: 1024px){
+    .IconSection{
+       
+        padding: 0px 5% 0;
+       gap: 20px;
+    }
+    .IconSection img{
+        width: 100px;
+        
+    }
+}
