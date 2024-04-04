@@ -9,7 +9,7 @@ export default function Contacto() {
     return (
         <div className='contact'>
 
-            <div className='bg'>
+            <div className='bg2'>
                 <Anchor to={`/`}>
                     <FontAwesomeIcon icon={faHome} /> Inicio
                 </Anchor>
