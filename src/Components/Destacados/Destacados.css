@@ -13,7 +13,6 @@
 
 .cardsDestacados{
     display: flex;
-    flex-wrap: wrap;
     gap: 2rem;
     background-color: var(--blanco);
     padding: 10px;
@@ -89,5 +88,8 @@
      .cardDestacados h3{
         font-size: 20px;
         color: var(--color1);
+    }
+    .cardsDestacados{
+        flex-direction: column;
     }
 }
